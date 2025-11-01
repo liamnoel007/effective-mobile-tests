@@ -28,7 +28,7 @@ cd effective-mobile-tests
 
 ---
 
-## Запуск — одна команда
+## Первый запуск
 
 ## Windows (PowerShell / CMD)
 
@@ -40,6 +40,22 @@ docker-compose up --build
 
 ```bash
 docker-compose up --build
+```
+
+---
+
+## Быстрый повторный запуск
+
+## Windows (PowerShell / CMD)
+
+```bash
+docker-compose up
+```
+
+## Linux / macOS
+
+```bash
+docker-compose up
 ```
 
 ---

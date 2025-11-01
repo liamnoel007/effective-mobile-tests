@@ -16,7 +16,7 @@ def test_more_info(main_page):
     main_page.check_more_info()
 
 
-@allure.title("Проекты — проверка URL")
+@allure.title("Проекты — проверка URL и заголовка")
 @allure.story("Раздел Проекты")
 def test_cases(main_page):
     main_page.go_to_cases()

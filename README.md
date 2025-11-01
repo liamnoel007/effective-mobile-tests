@@ -33,13 +33,13 @@ cd effective-mobile-tests
 ## Windows (PowerShell / CMD)
 
 ```bash
-powershelldocker-compose up --build
+docker-compose up --build
 ```
 
 ## Linux / macOS
 
 ```bash
-bashdocker-compose up --build
+docker-compose up --build
 ```
 
 ---

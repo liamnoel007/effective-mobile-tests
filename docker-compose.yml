@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  tests:
+    build: .
+    container_name: em-tests-allure
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./allure-results:/app/allure-results
+    restart: unless-stopped

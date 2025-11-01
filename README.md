@@ -22,7 +22,7 @@
 ### 2. Склонируй и запусти (2 команды)
 
 ```bash
-git clone https://github.com/ТВОЙ_ЛОГИН/effective-mobile-tests.git
+git clone https://github.com/liamnoel007/effective-mobile-tests.git
 cd effective-mobile-tests
 ```
 

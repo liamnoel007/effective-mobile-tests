@@ -5,18 +5,6 @@
 
 ---
 
-## Что проверяется
-
-| Тест         | URL         | Заголовок         |
-| ------------ | ----------- | ----------------- |
-| **О нас**    | `#about`    | `О нас`           |
-| **Услуги**   | `#moreinfo` | `услуги`          |
-| **Проекты**  | `#cases`    | `проекты`         |
-| **Отзывы**   | `#Reviews`  | `ОТЗЫВЫ КЛИЕНТОВ` |
-| **Контакты** | `#contacts` | `контакты`        |
-
----
-
 ## Запуск на **любом компьютере** (Windows / Linux / macOS)
 
 ### 1. Установи Docker Desktop
@@ -37,3 +25,25 @@
 git clone https://github.com/ТВОЙ_ЛОГИН/effective-mobile-tests.git
 cd effective-mobile-tests
 ```
+
+---
+
+## Запуск — одна команда
+
+## Windows (PowerShell / CMD)
+
+```bash
+powershelldocker-compose up --build
+```
+
+## Linux / macOS
+
+```bash
+bashdocker-compose up --build
+```
+
+---
+
+## Готово!
+
+Открой в браузере: http://localhost:8080

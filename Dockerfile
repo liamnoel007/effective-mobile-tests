@@ -13,4 +13,4 @@ RUN apt-get update && \
     tar -xz -C /opt/ && \
     ln -s /opt/allure-2.27.0/bin/allure /usr/local/bin/allure
 
-CMD ["sh", "-c", "pytest && allure serve /app/allure-results"]
+CMD ["sh", "-c", "pytest; allure serve /app/allure-results"]
